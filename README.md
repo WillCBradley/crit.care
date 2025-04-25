@@ -1,2 +1,1 @@
-# critcare
-Teaching myself the fundamentals of critical care medicine.
+[crit.care](https://crit.care/)
