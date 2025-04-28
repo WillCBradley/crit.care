@@ -60,14 +60,11 @@ p {
   border: 1px solid #6792cb;
   transform: translateY(-3px);
   color: #6792cb;
+  text-decoration: none;
 }
 
-.about-card > a {
+.about-card {
   color: black;
-}
-
-.about-card:hover > a {
-  color: #6792cb;
 }
 
 .authorsubhead {
