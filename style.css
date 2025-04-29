@@ -61,6 +61,7 @@ p {
   transform: translateY(-3px);
   color: #6792cb;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .about-card {
@@ -86,21 +87,33 @@ p {
   }
 
 .card {
-    flex: 1 1 calc(33.333% - 1rem);
     height: 250px;
     border-radius: 10px;
-    border: 1px solid rgba(128, 128, 128, 0.4);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.card:hover {
+.card-link {
+  flex: 1 1 calc(33.333% - 1rem);
+  height: 250px;
+  border-radius: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+  display: flex;
+  color: black;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-link:hover {
     transition: 0.2s ease;
     border: 1px solid #6792cb;
     transform: translateY(-3px);
     color: #6792cb;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .card:hover > a {
