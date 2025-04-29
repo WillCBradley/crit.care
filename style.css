@@ -200,6 +200,10 @@ p {
         flex: 1 1 calc(50% - 1rem);
         max-width: calc(50% - 1rem);   
     }
+    .card-link {
+      flex: 1 1 calc(50% - 1rem);
+      max-width: calc(50% - 1rem);   
+  }
     .about-card {
       width: calc(50% - 1rem);   
   }
@@ -221,6 +225,10 @@ p {
         flex: 1 1 calc(100% - 1rem);
         max-width: calc(100% - 1rem);
     }
+    .card-link {
+      flex: 1 1 calc(100% - 1rem);
+      max-width: calc(100% - 1rem);
+  }
     .about-card {
       width: calc(100% - 1rem);   
   }
