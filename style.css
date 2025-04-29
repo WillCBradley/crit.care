@@ -162,6 +162,10 @@ p {
     font-size: 3rem;
 }
 
+.no-subtitle {
+  margin-block: 2rem;
+}
+
 .title {
   color: #6792cb;
   font-size: 4rem;
