@@ -22,6 +22,8 @@
 
 html {
     font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto Serif", serif; */
+    scroll-behavior: smooth;
 }
 
 a {
@@ -33,10 +35,30 @@ a:hover {
   text-decoration: underline;
 }
 
+hr {
+  margin-block: 1rem !important;
+}
+
+img {
+  display: block;
+  margin-inline: auto;
+}
+
+li {
+  list-style-type: none;
+  font-size: 1.2rem;
+}
+
 p {
   font-size: 1.2rem;
   margin-bottom: 1rem;
   margin-left: 0;
+  scroll-margin-top: 5rem;
+
+}
+
+ul {
+  margin-bottom: 1rem;
 }
 
 /* Regular CSS */
@@ -142,13 +164,17 @@ p {
   align-items: center;
 }
 
+.no-subtitle {
+  margin-block: 2rem;
+}
+
 .page-body {
   margin-inline: auto;
   padding-inline: 50px;
   margin-bottom: 3rem;
   margin-top: 3rem;
   margin-bottom: 5rem;
-  max-width: 650px;
+  max-width: 800px;
 }
 
 .page-subtitle {
@@ -162,8 +188,11 @@ p {
     font-size: 3rem;
 }
 
-.no-subtitle {
-  margin-block: 2rem;
+.sticky {
+  position: sticky;
+  background-color: #fff;
+  padding-bottom: 0rem;
+  top: 0;
 }
 
 .title {
