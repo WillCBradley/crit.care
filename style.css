@@ -8,6 +8,12 @@
 
 /* Post-Launch */
 
+:root {
+  --primary: #6792cb;
+  /* Blue: #6792cb */
+  /* Green: #679f69 */
+}
+
 *,
 *::after,
 *::before {
@@ -28,7 +34,7 @@ html {
 
 a {
   text-decoration: none;
-  color: #6792cb;
+  color: var(--primary);
 }
 
 a:hover {
@@ -81,9 +87,9 @@ ul {
 
 .about-card:hover {
   transition: 0.2s ease;
-  border: 1px solid #6792cb;
+  border: 1px solid var(--primary);
   transform: translateY(-3px);
-  color: #6792cb;
+  color: var(--primary);
   text-decoration: none;
   cursor: pointer;
 }
@@ -98,7 +104,7 @@ ul {
 }
 
 .authorsubhead > a {
-  color: #6792cb;
+  color: var(--primary);
 }
 
 .back-arrow {
@@ -138,9 +144,9 @@ ul {
 
 .card-link:hover {
     transition: 0.2s ease;
-    border: 1px solid #6792cb;
+    border: 1px solid var(--primary);
     transform: translateY(-3px);
-    color: #6792cb;
+    color: var(--primary);
     text-decoration: none;
     cursor: pointer;
 }
@@ -166,7 +172,7 @@ ul {
 
 .disclaimer {
   text-align: center;
-  color: #6792cb;
+  color: var(--primary);
   margin-block: 1rem;
   font-size: 1rem;
   text-decoration: underline;
@@ -226,11 +232,11 @@ ul {
 .page-subtitle {
   margin-block: 2rem;
   font-weight: 400;
-  color: #6792cb;
+  color: var(--primary);
 }
 
 .page-title {
-    color: #6792cb;
+    color: var(--primary);
     font-size: 3rem;
 }
 
@@ -246,14 +252,21 @@ ul {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: 400;
-  color: #6792cb;
+  color: var(--primary);
+}
+
+.subheading-black {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: black;
 }
 
 .subscribe {
     font-size: 1.2rem;
     text-align: center;
-    border: 2px solid #6792cb;
-    color: #6792cb;
+    border: 2px solid var(--primary);
+    color: var(--primary);
     border-radius: 5px;
     padding : 0.5rem 1rem;
     background-color: white;
@@ -261,7 +274,7 @@ ul {
 
 .subscribe:hover {
   transition: 0.2s ease;
-  background-color: #6792cb;
+  background-color: var(--primary);
   /* transform: translateY(-1.5px); */
   color: white;
   text-decoration: none;
@@ -270,7 +283,7 @@ ul {
 
 .subscribe:active {
   transition: 0.2s ease;
-  background-color: #6792cb;
+  background-color: var(--primary);
   /* transform: translateY(-1.5px); */
   color: white;
   text-decoration: none;
@@ -278,7 +291,7 @@ ul {
 }
 
 .title {
-  color: #6792cb;
+  color: var(--primary);
   font-size: 4rem;
 }
 
